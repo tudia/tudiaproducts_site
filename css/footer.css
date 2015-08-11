@@ -1,0 +1,172 @@
+@font-face {
+    font-family: 'OpenSans-Light-webfont';
+    src: url('font/OpenSans-Light-webfont.eot');
+    src: url('font/OpenSans-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/OpenSans-Light-webfont.woff') format('woff'),
+         url('font/OpenSans-Light-webfont.ttf') format('truetype'),
+         url('font/OpenSans-Light-webfont.svg#BebasNeueRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ar_bonnieregular';
+    src: url('../fonts/arbonnie-webfont.eot');
+    src: url('../fonts/arbonnie-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/arbonnie-webfont.woff2') format('woff2'),
+         url('../fonts/arbonnie-webfont.woff') format('woff'),
+         url('../fonts/arbonnie-webfont.ttf') format('truetype'),
+         url('../fonts/arbonnie-webfont.svg#ar_bonnieregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.icon-social {
+	width: 25px;
+	height: 25px;
+	background: url('../images/sprite-social.png') no-repeat;
+}
+
+.icon-facebook {
+	background-position: 0 0;
+}
+
+.icon-facebook:hover,
+.icon-facebook:focus {
+	background-position: -130px 0;
+}
+
+.icon-twitter {
+	background-position: 0 -120px;
+}
+
+.icon-twitter:hover,
+.icon-twitter:focus {
+	background-position: -130px -120px;
+}
+
+#footer nav.navbar.navbar-inverse.navbar-bottom {
+	background: url(../images/debut_dark.png) repeat;
+	}
+
+#footer .navbar {
+	margin-bottom: 0px;
+	margin-top
+}
+
+#footer a {
+	color: #fff;
+	font-family: 'OpenSans-Light-webfont';
+	line-height: 1.5;
+}
+
+#footer a:hover {
+	color: #EC572C;
+}
+
+
+
+#footer label {
+	font-weight: normal;
+}
+
+#footer h5 {
+	margin: 0 0 15px 0;
+	padding: 0 0 15px 0;
+	border-bottom: solid #fff 1px;
+	font-size: 18px;
+    color: #e9e9e9;
+	font-family: 'Poiret One', cursive;
+	text-transform: uppercase;
+	font-weight: normal;
+}
+
+#footer .container {
+	margin-top: 70px;
+	margin-bottom: 60px;
+}
+
+div#socnet {
+	margin-bottom: 35px;
+}
+
+#socnet a {
+	display: inline-block;
+	text-align: left;
+	text-indent: -9999px;
+	margin: 0 8px 8px 0;
+}
+
+.col-sm-3 {
+	margin-bottom: 30px;
+}
+
+#footer label {
+	color: #fff;
+	font-family: 'OpenSans-Light-webfont';
+}
+
+#footer input.Button {
+	width: auto;
+	border: solid #26231e 1px;
+	background: #363636;
+	color: #dfdfdf;
+	margin-left: 0px;
+	height: 48px;
+
+}
+
+#footer input {
+	margin-bottom: 10px;
+	background: rgba(1,200,200,.1);
+	height: 40px;
+	margin-left: 7px;
+	border: none;
+}
+
+.button, button, input[type="submit"], input[type="reset"], input[type="button"] {
+	background: #363636;
+	color: #dfdfdf;
+}
+
+#footer input.Button:hover {
+	color: #ed6e41;
+	background:;
+	border: 1px solid #ed6e41;
+
+}
+
+#footer .navbar-inverse {
+	border: none;
+}
+
+
+input#nl_first_name {
+	width: 100%;
+	outline: none;
+}
+
+input#nl_email {
+	width: 100%;	
+	outline: none;
+}
+
+input#nl_first_name, input#nl_email {
+	color: white;
+	padding: 9px;
+}
+
+
+@media (max-width: 768px) {
+
+	#footer h5 {
+		font-size: 30px;
+	}
+
+	.col-sm-3 {
+		width: 80%;
+		margin-left: 10%;
+	}
+}
+

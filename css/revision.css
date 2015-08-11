@@ -1,0 +1,332 @@
+#product-list .product{
+	border-style:solid;
+	border-width: 5px;
+	border-color:#292b24;
+	position:relative;
+	background: rgba(38,38,38,.96);
+  	margin-top: 10px;
+  	border-radius: 3px;
+	padding-bottom:70px;
+}
+
+#product-list .product .img-blog .date{
+	position:absolute;
+	top:20px;
+	width:130px;
+	left:20px;
+	z-index:5;
+	background: rgba(0,0,0,.6);
+	-webkit-transition: all .35s ease-in-out;
+	-moz-transition: all .35s ease-in-out;
+	-ms-transition: all .35s ease-in-out;
+	-o-transition: all .35s ease-in-out;
+	transition: all .35s ease-in-out;	
+}
+
+#product-list .product .img-blog:hover  .date{
+	width:100%;
+	height:99%;
+	top:0;
+	left:0;
+	background: rgba(0,0,0,.8) url('../images/line-angle1.png') no-repeat center center;
+}
+
+#product-list .product .img-blog{ 
+	position:relative;
+    width:100%;
+	height:auto;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: white;
+}
+
+#product-list .product .img-blog img { 
+    width:100%;
+	height:auto;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+#product-list .product h6 { 
+    color:#fff;
+	padding-left:20px;
+	padding-right:20px;
+	padding-top:15px;
+	padding-bottom:10px;
+  text-align: left;
+}
+
+#product-list .product p { 
+    color:#fff;
+	padding-left:20px;
+	padding-right:20px;
+	padding-top:10px;
+	padding-bottom:15px;
+  	text-align: left;
+}
+
+.owl-carousel .owl-item {
+	width: 100% !important;
+}
+
+.owl-carousel .owl-wrapper {
+	left: 0px !important;
+}
+
+.owl-wrapper {
+	width: 100% !important;
+}
+
+.jumbotron {
+	background-color: transparent;
+	margin-bottom: 0px;
+}
+
+[for="read_more"] {
+	  bottom: 3rem;
+}
+
+[for="view_more"] {
+	  bottom: 3rem;
+}
+
+/* Bootstrap 5-Column Addition */
+
+.col-xs-5ths,
+.col-sm-5ths,
+.col-md-5ths,
+.col-lg-5ths {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.col-xs-5ths {
+    width: 20%;
+    float: left;
+}
+
+.cbp-so-scroller {
+	line-height: 0px;
+}
+
+.jumbotron {
+	line-height: 24px;
+	font-size: 18px;
+}
+
+[for="view_more"] {
+	font-size:150%;
+	color:#EC572C;
+    position: absolute;
+    bottom: -3rem;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: .65rem;
+}
+
+.productlist ul li:nth-child(n+6) {
+    display:none;
+}
+
+.productlist ul li {
+ 	border: 1px solid #aaa;   
+ 	float: left;
+}
+
+.productlist span {
+    cursor: pointer;
+	color: #f00;                
+}
+
+#product-list {
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.container-fluid.productWrapper {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+/*[for="view_more"] span:hover {
+    color: rgb(255,255,255);
+}
+
+[for="view_more"] span:last-of-type {
+    display: none;
+    visibility: hidden;
+}
+
+input[type=checkbox]:checked ~ li {
+    display: block;
+    visibility: visible;
+    width: 100%;
+}*/
+
+input[type=checkbox]:checked ~ figure { width: 100% }
+
+input[type=checkbox]:checked ~ [for="view_more"] span:first-of-type {
+    display: none;
+    visibility: hidden;
+}
+
+input[type=checkbox]:checked ~ [for="view_more"] span:last-of-type {
+    display: block;
+    visibility: visible;
+}
+
+@media (min-width: 768px) {
+    .col-sm-5ths {
+        width: 20%;
+        float: left;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+
+	    .product-seven, .product-eight, .product-nine, .product-ten {
+		display: none;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-md-5ths {
+        width: 20%;
+        float: left;
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	
+	    .product-nine, .product-ten {
+		display: none;
+    }
+}
+
+
+
+@media (min-width: 1200px) {
+    .col-lg-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+#FooterUpper {
+	padding-top: 0px;
+}
+
+#FooterUpper .Column li a {
+	font-family: OpenSans-Light-webfont;
+
+}
+
+#FooterUpper h2 {
+	color: white;
+	font-family: 'Poiret One', cursive;
+}
+
+#FooterUpper label {
+	color: white;
+}
+
+#FooterUpper .Column label {
+	font-family: OpenSans-Light-webfont;
+}
+
+#ContainerFooter div {
+	margin-top: 20px;
+}
+
+.BlockContent label {
+	padding-bottom: 15px;
+	padding-top: 5px;
+}
+
+@media (max-width: 800px) {
+
+	#Outer, .Inner {
+		width: 80%;
+		margin-left: 10% ;
+	}
+
+	#FooterUpper {
+		padding: 0px;
+	}
+
+	#FooterUpper .Column {
+		width: 100%;
+		margin: 0;
+	}
+
+	.Block {
+		margin-bottom: 50px;
+		width: 100%
+		}
+
+	#FooterUpper .Column h2 {
+		font-size: 30px;
+	}
+	
+	#FooterUpper .Column li {
+		font-size: 19px;
+		margin: 0 0 15px 0;
+	}
+	#FooterUpper .Column li a {
+		font-size: 19px;
+	}
+
+	#FooterUpper .Column input {
+		height: 40px;
+		width: 100%;
+	}
+
+	input {
+		font-family: 'OpenSans-Light-webfont';
+		font-size: 19px;
+		background: rgba(1,200,200,.1)
+	}
+
+	#FooterUpper .Column input.Button {
+		height: 40px;
+		margin-left: 0px;
+	}
+
+	.cd-form .item select {
+		font-size: 1.1em;
+	}
+
+	div#socnet {
+		margin-bottom: 50px;
+	}
+
+	#socnet a {
+		margin: 0 20px 10px 0;
+	}
+
+	.reg-form h2 {
+	font-size: 2.1em;
+}
+
+}
+
+.sixteen.columns {
+	padding-top: 50px;
+	padding-bottom: 40px;
+}
+
+.parallax-wrap span:hover {
+    border: 1px #ed6e41 solid;
+}
+
+@media (max-width: 400px){
+	#product-list .product h6{
+	    min-height: 80px;
+	}
+}

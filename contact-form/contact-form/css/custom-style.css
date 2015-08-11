@@ -1,0 +1,443 @@
+@import url(http://fonts.googleapis.com/css?family=Poiret+One&subset=latin,latin-ext,cyrillic);
+
+@font-face {
+    font-family: 'open_sans_condensedbold';
+    src: url('../../../klip/fonts/opensans-condbold1-webfont.eot');
+    src: url('../../../klip/fonts/opensans-condbold1-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../../klip/fonts/opensans-condbold1-webfont.woff2') format('woff2'),
+         url('../../../klip/fonts/opensans-condbold1-webfont.woff') format('woff'),
+         url('../../../klip/fonts/opensans-condbold1-webfont.ttf') format('truetype'),
+         url('../../../klip/fonts/opensans-condbold1-webfont.svg#open_sans_condensedbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'open_sanscondensed_light';
+    src: url('../../../klip/fonts/opensans-condlight1-webfont.eot');
+    src: url('../../../klip/fonts/opensans-condlight1-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../../klip/fonts/opensans-condlight1-webfont.woff2') format('woff2'),
+         url('../../../klip/fonts/opensans-condlight1-webfont.woff') format('woff'),
+         url('../../../klip/fonts/opensans-condlight1-webfont.ttf') format('truetype'),
+         url('../../../klip/fonts/opensans-condlight1-webfont.svg#open_sanscondensed_light') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'open_sansCnLtIt';
+    src: url('../../../klip/fonts/opensans-condlightitalic1-webfont.eot');
+    src: url('../../../klip/fonts/opensans-condlightitalic1-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../../klip/fonts/opensans-condlightitalic1-webfont.woff2') format('woff2'),
+         url('../../../klip/fonts/opensans-condlightitalic1-webfont.woff') format('woff'),
+         url('../../../klip/fonts/opensans-condlightitalic1-webfont.ttf') format('truetype'),
+         url('../../../klip/fonts/opensans-condlightitalic1-webfont.svg#open_sansCnLtIt') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+#logo h1 {
+	font-family: 'ar_bonnieregular';
+	text-transform: uppercase;
+	font-weight: 100;
+	letter-spacing: 1px;
+	color: white;
+	font-size: 80px;
+	height: 80px;
+
+}
+
+.contact-form-group.zip {
+	float: right;
+}
+
+#Logo {
+	display: inline;
+	margin: 0px;
+}
+
+.Logo {
+	margin: 0px;
+}
+
+
+.Logo a {
+	color: white;
+}
+
+.cd-form input[type="submit"] {
+	margin-top: 0px;
+	width: auto;
+	line-height: normal !important;
+	height:	inherit;
+	text-transform: none;
+	font-size: inherit !important;
+	margin-bottom: 0px;
+}
+
+.cd-form input[type="text"]:focus, .cd-form input[type="email"]:focus, .cd-form textarea:focus, .cd-form select:focus {
+	border-color: #cfd9db;
+}
+
+.cd-form input[type="date"] {
+	border: 1px solid #cfd9db;
+	border-radius: .25em;
+}
+
+.no-touch .cd-form input[type="submit"]:hover {
+ 	background: #ed6e41;
+ 	box-shadow: 0 3px #B35534;
+	border-radius: 0 0 5px 5px;
+}
+
+.cd-form input {
+	color: #717C80;
+}
+
+.cd-form select {
+	font-size: 1.6rem;
+	color: #717C80;
+}
+
+.reg-form {
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-top: 6%;
+}
+
+.thankyoupage {
+	min-height: 300px;
+
+}
+
+.reg-form .cd-form label {
+	color: #717C80;
+	padding-bottom: 5px;
+	font-weight: 200;
+}
+
+.js .floating-labels .cd-label.float {
+	font-size: 1.4em;
+	top: -35px;
+	font-weight: 200;
+	color: #737373 !important;
+}
+
+.cd-form {
+	padding-bottom: 80px;
+	max-width: 90%;
+}
+
+.reg-form h2 {
+	font-family: 'Poiret One', cursive;
+	text-transform: uppercase;
+	font-size: 3em;
+	color: #ed6e41;
+	font-weight: 600;
+	margin-bottom: 15px;
+}
+
+.warranty {
+	margin-bottom: 40px;
+}
+
+ul.cd-form-list {
+	padding-left: 15px;
+}
+
+.cd-form input[type="radio"] + label, .cd-form input[type="checkbox"] + label {
+	padding-left: 55px;
+}
+
+.shop-now-button span {
+    background: rgba(38,38,38,.9);
+}
+
+.photo {
+width: 300px;
+text-align: center;
+}
+.photo .ui-widget-header {
+margin: 1em 0;
+}
+.map {
+width: 350px;
+height: 350px;
+}
+.ui-tooltip {
+max-width: 350px;
+}
+
+/*.contact-form-group {
+	display: inline-block;
+	margin-top: 0px !important;
+	margin-bottom: 0px !important;
+}
+
+.firstname {
+	width: 50%;
+	padding-right: 10px;
+}
+
+.lastname {
+	width: 49%;
+}
+
+.city {
+	padding-right: 10px;
+	width: 40%;
+}
+
+.state {
+	padding-right: 10px;
+	width: 30%;
+}
+
+.zip {
+	width: 29%;
+}
+*/
+
+h1, h2, h3, h4, h5, h6 {
+	color: #9C9C9C;
+	font-family: 'Poiret One', cursive;
+	text-transform: uppercase;
+	font-weight:normal;
+}
+
+#FooterUpper .Column li a {
+	font-family: 'OpenSans-Light-webfont';
+
+}
+
+#FooterUpper h2 {
+	color: white;
+	font-family: 'Poiret One', cursive;
+}
+
+#FooterUpper label {
+	color: white;
+}
+
+#FooterUpper .Column label {
+	font-family: 'OpenSans-Light-webfont';
+}
+
+
+.cd-form input[type="text"], .cd-form input[type="email"], .cd-form textarea, .cd-form input[type="date"], .cd-form select {
+	border-radius: 0px;
+}
+
+.cd-form input, .cd-form textarea, .cd-form select, .cd-form label {
+	font-family: 'OpenSans-Light-webfont';	
+}
+
+.cd-form input[type="date"] {
+	padding: 16px;
+	line-height: 22px;
+}
+
+.example {
+	margin: 0px !important;
+	font-family: 'OpenSans-Light-webfont';
+	font-size: 18px; 
+}
+
+.cd-form input[type="submit"] {
+	float: left;
+	border-radius: 0px;
+	background: #ed6e41;
+	font-size: 1.6em !important;
+	box-shadow: 0 6px #B35534;
+  	border-radius: 0 0 5px 5px;
+}
+
+.cd-form input, .cd-form textarea, .cd-form select, .cd-form label {
+	font-size: 1.7em;
+}
+
+.cd-form input[type="submit"]:hover {
+	box-shadow: 0 3px #B35534;
+
+}
+
+.js .floating-labels .cd-label {
+	font-size: 1.7em;
+}
+
+.js .floating-labels div {
+	margin: 50px 0;
+}
+
+.contact-form-group.zip {
+	display: inline-block;
+	width: 29%;
+	margin-top: 0px !important;
+	margin-bottom: 0px !important;
+}
+
+.contact-form-group.state {
+	display: inline-block;
+	width: 70%;
+	margin-top: 0px !important;
+	margin-bottom: 0px !important;
+}
+
+
+@media (max-width: 1900px) {
+
+	.reg-form {
+		margin-top: 8%;
+	}
+}
+
+@media (max-width: 1400px) {
+
+	.reg-form {
+		margin-top: 11%;
+	}
+}
+
+@media (max-width: 1000px) {
+
+	.cd-form input, .cd-form textarea, .cd-form select, .cd-form label {
+	font-size: 1.4em;
+	}
+
+	.js .floating-labels .cd-label {
+	font-size: 1.4em;
+	}
+}
+
+@media (max-width: 900px) {
+	.reg-form {
+		margin-top: 13%;
+	}
+}
+
+
+@media (max-width: 800px) {
+
+	.reg-form {
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 15%;
+	}
+
+	#Outer, .Inner {
+		width: 80%;
+		margin-left: 10% ;
+	}
+
+	#FooterUpper {
+		padding: 0px;
+	}
+
+	#FooterUpper .Column {
+		width: 100%;
+		margin: 0;
+	}
+
+	.contact-form-group.state {
+		display: inline-block;
+		width: 68%;
+		margin-top: 0px !important;
+		margin-bottom: 0px !important;
+	}
+
+	.Block {
+		margin-bottom: 50px;
+		}
+
+	#FooterUpper .Column h2 {
+		font-size: 30px;
+	}
+	
+	#FooterUpper .Column li {
+		font-size: 19px;
+		margin: 0 0 15px 0;
+	}
+	#FooterUpper .Column li a {
+		font-size: 19px;
+	}
+
+	#FooterUpper .Column input {
+		height: 40px;
+		width: 100%;
+	}
+
+	input {
+		font-family: 'OpenSans-Light-webfont';
+		font-size: 19px;
+		background: rgba(1,200,200,.1)
+	}
+
+	#FooterUpper .Column input.Button {
+		height: 40px;
+		margin-left: 0px;
+	}
+
+	.cd-form .item select {
+		font-size: 1.1em;
+	}
+
+	div#socnet {
+		margin-bottom: 50px;
+	}
+
+	.reg-form h2 {
+	font-size: 2.1em;
+	}
+
+	.cd-form input, .cd-form textarea, .cd-form select, .cd-form label {
+	font-size: 1.3em;
+	}
+
+	.js .floating-labels .cd-label {
+	font-size: 1.3em;
+	}
+
+}
+
+@media (max-width: 700px) {
+	.reg-form {
+
+		margin-top: 20%;
+	}
+}
+
+@media (max-width: 600px) {
+	.reg-form {
+		margin-top: 25%;
+	}
+}
+
+@media (max-width: 500px) {
+	.reg-form {
+		margin-top: 30%;
+	}
+}
+
+@media (max-width: 400px) {
+	.reg-form {
+		margin-top: 34%;
+	}
+}
+
+@media (max-width: 300px) {
+	.reg-form {
+		margin-top: 38%;
+	}
+
+}
+
+.js .floating-labels .cd-label {
+	top: 14px;
+}
+
+label.cd-label {
+	font-weight: 200;
+}

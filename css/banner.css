@@ -1,0 +1,520 @@
+*,
+*:after,
+*::before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.banner-image {
+	background: url(/images/banner/litearch1.png) no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  	height: auto;
+  	width: 100%
+}
+
+.thankyou h1 {
+	color: #9E9E9E;
+}
+
+.thankyou {
+	min-height: 300px;
+}
+
+
+.banner {
+	text-align: center;
+}
+
+.warranty {
+	margin-bottom: 80px;
+}
+
+.warranty ul {
+	padding-left: 35px;
+}
+
+.warranty a {
+	color: #08929C;
+	cursor: pointer;
+}
+
+.warranty a:focus, a:hover {
+	color: #00BCC9;
+	text-decoration: none;
+
+}
+
+.buy-now a:focus, a:hover {
+	color: white;
+}
+
+.buy-now a {
+	color: white;
+}
+
+.lite-icon {
+	background: url('/images/banner/banner-icons/LiteIcon.png') no-repeat;
+  	width: 100px;
+  	height: 146px;
+}
+
+.lite-icon:hover, .lite-icon:active {
+	background-position: -105px;
+}
+
+.bx-pager-item a {
+	line-height: 0px;
+	background: url('/images/banner/banner-icons/LiteIcon.png') no-repeat;
+  	width: 100px;
+  	height: 146px;
+  	font: 0px;
+}
+
+.bx-pager.bx-default-pager {  
+  position: absolute;
+  top: 100px;
+  z-index: 100;
+  display: inline-flex;
+  margin-left: 50%;
+  margin-right: 50%;
+}
+
+.re-icon {
+	background: url('/images/banner/banner-icons/RE.png') no-repeat;
+  	width: 100px;
+  	height: 146px;
+}
+
+.re-icon:hover {
+	background-position: -105px;
+}
+
+.slim-icon {
+	background: url('/images/banner/banner-icons/Ultra-Slim.png') no-repeat;
+  	width: 100px;
+  	height: 146px;
+}
+
+.slim-icon:hover {
+	background-position: -105px;
+}
+
+.dual-layer {
+	background: url('/images/banner/banner-icons/Dual-Layer.png') no-repeat;
+  	width: 100px;
+  	height: 146px;
+}
+
+.dual-layer:hover {
+	background-position: -105px;
+}
+
+.shockproof {
+	background: url('/images/banner/banner-icons/Shockproof.png') no-repeat;
+  	width: 100px;
+  	height: 146px;
+}
+
+.shockproof:hover {
+	background-position: -105px;
+}
+
+.triplelayer {
+	background: url('/images/banner/banner-icons/TripleLayer.png') no-repeat;
+  	width: 100px;
+  	height: 146px;
+}
+
+.triplelayer:hover {
+	background-position: -105px;
+}
+
+.water-icon {
+	background: url('/images/banner/banner-icons/water-icon.png') no-repeat;
+  	width: 100px;
+  	height: 146px;
+}
+
+.water-icon:hover {
+	background-position: -105px;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+.banner-button {
+	text-align:center;
+}
+
+.banner-button div {
+	display: inline-block;
+}
+
+.reg-form {
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.reg-form h3 {
+	color: #9E9E9E;
+}
+
+.reg-form body {
+	color: #595959;
+}
+
+.banner-button img {
+	width: 100px;
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+.bx-controls-direction {
+	display: none;
+}
+
+.container-fluid.banner-body {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.bxslider li {
+	margin-top: -140px;
+	position: relative !important;
+}
+
+ul {
+	padding-left:0;
+}
+
+.button-block {
+	position: absolute;
+	z-index: 100;
+	left: 0;
+	right: 0;
+	margin-top: 28px;
+}
+
+.buy-now {
+	position: relative;
+	border-bottom: 1px solid black;
+	width: 100%;
+	text-align: center;
+	display: inline-flex;
+	padding: 22px;
+}
+
+.gradient {
+  background-image:
+    linear-gradient(
+      to bottom right, #006363, #D5E3E3
+    );
+}
+
+
+ .col-center {
+   float: none;
+   margin-right: auto;
+   margin-left: auto;
+ }
+
+ /* Effect 2: 3D rolling links, idea from http://hakim.se/thoughts/rolling-links */
+.cl-effect-2 a {
+	line-height: 44px;
+	-webkit-perspective: 1000px;
+	-moz-perspective: 1000px;
+	perspective: 1000px;
+}
+
+.cl-effect-2 a span {
+	position: relative;
+	display: inline-block;
+	padding: 0 14px;
+	background: #3DC2D1;
+	-webkit-transition: -webkit-transform 0.3s;
+	-moz-transition: -moz-transform 0.3s;
+	transition: transform 0.3s;
+	-webkit-transform-origin: 50% 0;
+	-moz-transform-origin: 50% 0;
+	transform-origin: 50% 0;
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+}
+
+.csstransforms3d .cl-effect-2 a span::before {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #347D85;
+	content: attr(data-hover);
+	-webkit-transition: background 0.3s;
+	-moz-transition: background 0.3s;
+	transition: background 0.3s;
+	-webkit-transform: rotateX(-90deg);
+	-moz-transform: rotateX(-90deg);
+	transform: rotateX(-90deg);
+	-webkit-transform-origin: 50% 0;
+	-moz-transform-origin: 50% 0;
+	transform-origin: 50% 0;
+}
+
+.cl-effect-2 a:hover span,
+.cl-effect-2 a:focus span {
+	-webkit-transform: rotateX(90deg) translateY(-22px);
+	-moz-transform: rotateX(90deg) translateY(-22px);
+	transform: rotateX(90deg) translateY(-22px);
+}
+
+.csstransforms3d .cl-effect-2 a:hover span::before,
+.csstransforms3d .cl-effect-2 a:focus span::before {
+	background: #3DC2D1;	
+}
+
+ @media (max-width: 1054px) {
+ 	
+ 	.lite-icon {
+		background: url('/images/banner/banner-icons/180WideIcons/LiteIcon180.png') no-repeat;
+	  	width: 87.805px;
+	  	height: 123.287px;
+	}
+
+	.lite-icon:hover, .lite-icon:active {
+		background-position: -92.905px;
+	}
+
+	.re-icon {
+		background: url('/images/banner/banner-icons/180WideIcons/RE180.png') no-repeat;
+	  	width: 87.805px;
+	  	height: 123.287px;
+	}
+
+	.re-icon:hover {
+		background-position: -92.905px;
+	}
+
+	.slim-icon {
+		background: url('/images/banner/banner-icons/180WideIcons/Ultra-Slim180.png') no-repeat;
+	  	width: 87.805px;
+	  	height: 123.287px;
+	}
+
+	.slim-icon:hover {
+		background-position: -92.905px;
+	}
+
+	.dual-layer {
+		background: url('/images/banner/banner-icons/180WideIcons/Dual-Layer180.png') no-repeat;
+	  	width: 87.805px;
+	  	height: 123.287px;
+	}
+
+	.dual-layer:hover {
+		background-position: -92.905px;
+	}
+
+	.shockproof {
+		background: url('/images/banner/banner-icons/180WideIcons/Shockproof180.png') no-repeat;
+  		width: 87.805px;
+	  	height: 123.287px;
+	}
+
+	.shockproof:hover {
+		background-position: -92.905px;
+	}
+
+	.triplelayer {
+		background: url('/images/banner/banner-icons/180WideIcons/TripleLayer180.png') no-repeat;
+  		width: 87.805px;
+	  	height: 123.287px;
+	}
+
+	.triplelayer:hover {
+		background-position: -92.905px;
+	}
+
+	.water-icon {
+		background: url('/images/banner/banner-icons/180WideIcons/water-icon180.png') no-repeat;
+		width: 87.805px;
+	  	height: 123.287px;
+	}
+
+	.water-icon:hover {
+		background-position: -92.905px;
+	}
+
+	.button-block {
+	margin-top: 18px;
+}
+
+
+ }
+
+  @media (max-width: 680px) {
+ 	
+ 	.lite-icon {
+		background: url('/images/banner/banner-icons/120WideIcons/LiteIcon120.png') no-repeat;
+	  	width: 58.5366px;
+	  	height: 84.1917px;
+	}
+
+	.lite-icon:hover, .lite-icon:active {
+		background-position: -61.4634px;
+	}
+
+	.re-icon {
+		background: url('/images/banner/banner-icons/120WideIcons/RE120.png') no-repeat;
+	  	width: 58.5366px;
+	  	height: 84.1917px;
+	}
+
+	.re-icon:hover {
+		background-position: -61.4634px;
+	}
+
+	.slim-icon {
+		background: url('/images/banner/banner-icons/120WideIcons/Ultra-Slim120.png') no-repeat;
+	  	width: 58.5366px;
+	  	height: 84.1917px;
+	}
+
+	.slim-icon:hover {
+		background-position: -61.4634px;
+	}
+
+	.dual-layer {
+		background: url('/images/banner/banner-icons/120WideIcons/Dual-Layer120.png') no-repeat;
+	  	width: 58.5366px;
+	  	height: 84.1917px;
+	}
+
+	.dual-layer:hover {
+		background-position: -61.4634px;
+	}
+
+	.shockproof {
+		background: url('/images/banner/banner-icons/120WideIcons/Shockproof120.png') no-repeat;
+	  	width: 58.5366px;
+	  	height: 84.1917px;
+	}
+
+	.shockproof:hover {
+		background-position: -61.4634px;
+	}
+
+	.triplelayer {
+		background: url('/images/banner/banner-icons/120WideIcons/TripleLayer120.png') no-repeat;
+	  	width: 58.5366px;
+	  	height: 84.1917px;
+	}
+
+	.triplelayer:hover {
+		background-position: -61.4634px;
+	}
+
+	.water-icon {
+		background: url('/images/banner/banner-icons/120WideIcons/water-icon120.png') no-repeat;
+	  	width: 58.5366px;
+	  	height: 84.1917px;
+	}
+
+	.water-icon:hover {
+		background-position: -61.4634px;
+	}
+
+
+
+ }
+
+
+
+    @media (max-width: 1550px) {
+
+ 	.bxslider li {
+ 		margin-top: -170px;
+ 	} 
+
+    @media (max-width: 1450px) {
+
+ 	.bxslider li {
+ 		margin-top: -160px;
+ 	} 
+
+    @media (max-width: 1400px) {
+
+ 	.bxslider li {
+ 		margin-top: -150px;
+ 	} 
+
+    @media (max-width: 1300px) {
+
+ 	.bxslider li {
+ 		margin-top: -140px;
+ 	} 
+
+    @media (max-width: 1250px) {
+
+ 	.bxslider li {
+ 		margin-top: -130px;
+ 	}  
+
+   @media (max-width: 1175px) {
+
+ 	.bxslider li {
+ 		margin-top: -120px;
+ 	}  
+
+ 	@media (max-width: 1000px) {
+
+ 	.bxslider li {
+ 		margin-top: -100px;
+ 	}
+
+    @media (max-width: 900px) {
+
+ 	.bxslider li {
+ 		margin-top: -80px;
+ 	}
+
+ 	@media (max-width: 800px) {
+
+ 	.bxslider li {
+ 		margin-top: -70px;
+ 	}
+
+ 	 @media (max-width: 750px) {
+
+ 	.bxslider li {
+ 		margin-top: -55px;
+ 	}
+
+
+  @media (max-width: 700px) {
+
+ 	.bxslider li {
+ 		margin-top: -50px;
+ 	}
+
+
+  @media (max-width: 550px) {
+
+ 	.bxslider li {
+ 		margin-top: -10px;
+ 	}
+
+@media (max-width: 350px) {
+
+	.bxslider li {
+		margin-top: -0px;
+	}
